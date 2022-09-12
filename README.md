@@ -48,7 +48,7 @@ https://bleachevil.github.io/Challenge2-coding/
 ```
 ##### *Note: when you selected any items on navigation bar it will direct you to the corresponding section*
 
-### click on the link to the section about their work
+### click on the link to the section about their work, application's image should be larger in size than the others and taken to that deployed application
 
 #### below is the work section for this page
 ![](https://github.com/bleachevil/Challenge2-coding/blob/main/pics/2.png?raw=true)
@@ -90,4 +90,24 @@ img:active {
   }
 ```
 ##### *Note: when you howvered picture, it will inlarge and when you collected picture, it will direct you to Challenge1 website*
+
+
+### resize the page or view the site on various screens and devices
+
+#### all the section with the following code and have the size of image and text adjust based on size
+
+#### below is the sample code
+```
+@media screen and (max-width:768px) {
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size: 95%
+}
+.card {
+    max-width: 80%
+  }
+}
+```
 
