@@ -48,5 +48,46 @@ https://bleachevil.github.io/Challenge2-coding/
 ```
 ##### *Note: when you selected any items on navigation bar it will direct you to the corresponding section*
 
+### click on the link to the section about their work
 
+#### below is the work section for this page
+![](https://github.com/bleachevil/Challenge2-coding/blob/main/pics/2.png?raw=true)
+#### below is the code to support the work section
+```
+<section class="card">
+<h4>Challenge1-website</h4>
+<a href="https://bleachevil.github.io/Challenge1-coding/"><img src="../Challenge2-coding/assets/pics/1.jpg" alt="camera"/></a>
+</section>
+```
+#### below is the scc code to support the work section
+```
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .card img {
+    width: auto;
+    height: auto;
+    /* The client insists that images be at least 400px */
+    min-width: 100px;
+    max-width: 100%;
+    align-items: left;
+  }
+
+img:hover {
+    background-color: #772014;
+    color: #fff;
+    transition-duration: 1s;
+    height: 250px;
+    width: 250px;
+}
+
+img:active {
+    background: red
+  }
+```
+##### *Note: when you howvered picture, it will inlarge and when you collected picture, it will direct you to Challenge1 website*
 
